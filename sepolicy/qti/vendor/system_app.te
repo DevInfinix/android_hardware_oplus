@@ -6,3 +6,14 @@ r_dir_file(system_app, vendor_sysfs_sde_crtc)
 
 # Zram
 r_dir_file(system_app, sysfs_zram)
+
+allow system_app {
+    hal_audio_default
+    hal_health_default
+    hal_nfc_default
+    hal_power_default
+    hal_vibrator_default
+    hal_wifi_default
+    hal_wifi_supplicant_default
+    vendor_hal_gnss_qti
+}:binder { call };
