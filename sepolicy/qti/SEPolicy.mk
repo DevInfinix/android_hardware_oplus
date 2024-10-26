@@ -29,4 +29,4 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
     hardware/oplus/sepolicy/qti/public/common-um
 endif
 
--include device/everest/sepolicy/libperfmgr/sepolicy.mk
+-include device/halcyon/sepolicy/libperfmgr/sepolicy.mk
