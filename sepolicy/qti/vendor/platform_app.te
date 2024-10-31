@@ -1,3 +1,5 @@
+hal_client_domain(platform_app, vendor_hal_oplus_osense)
+
 r_dir_file(platform_app, vendor_sysfs_sde_crtc)
 
 allow platform_app hal_dms_hwservice:hwservice_manager find;
